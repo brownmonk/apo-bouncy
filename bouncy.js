@@ -3,13 +3,14 @@ var bouncy = require('bouncy');
 var server = bouncy(function (req, res, bounce) {
   console.log('bouncy received request for: ' + req.headers.host);
 
-  if ( req.headers.host.toLowerCase().indexOf('apotheosisentertainment') != -1 ) {
-
-    console.log('header has apotheosisentertainment.com')
+  if ( req.headers.host.toLowerCase().indexOf('apotheosisentertainment.com') != -1 ) {
     bounce(6007);
   }
-  else if (req.headers.host.toLowerCase().indexOf('www.sibsco.com') != -1 ) {
-    bounce(3456);
+  else if (req.headers.host.toLowerCase().indexOf('junctiongis.com') != -1 ) {
+    bounce(6008);
+  }
+  else if (req.headers.host.toLowerCase().indexOf('bandstock.org') != -1 ) {
+    bounce(6009);
   }
   else{
     bounce(6007);
@@ -17,4 +18,4 @@ var server = bouncy(function (req, res, bounce) {
 
 });
 
-server.listen(6008);
+server.listen(80);
