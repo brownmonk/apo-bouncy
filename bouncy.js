@@ -1,9 +1,10 @@
 var bouncy = require('bouncy');
 
 var server = bouncy(function (req, res, bounce) {
-  console.log('bouncy recieved request');
+  console.log('bouncy received request for: ' + req.headers.host);
 
-  if ( req.headers.host.toLowerCase().indexOf('www.apotheosisentertainment.com') != -1 ) {
+  if ( req.headers.host.toLowerCase().indexOf('apotheosisentertainment') != -1 ) {
+
     console.log('header has apotheosisentertainment.com')
     bounce(6007);
   }
