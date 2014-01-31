@@ -20,19 +20,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bouncy.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bouncy.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bouncy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="18" selection-start="280" selection-end="280" vertical-scroll-proportion="0.40930232">
+            <state line="11" column="18" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+            <state line="21" column="51" selection-start="557" selection-end="557" vertical-scroll-proportion="0.7813954">
               <folding />
             </state>
           </provider>
@@ -48,8 +48,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/bouncy.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -216,16 +216,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/bouncy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+        <state line="11" column="18" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bouncy.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="280" selection-end="280" vertical-scroll-proportion="0.40930232">
+        <state line="21" column="51" selection-start="557" selection-end="557" vertical-scroll-proportion="0.7813954">
           <folding />
         </state>
       </provider>

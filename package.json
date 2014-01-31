@@ -1,8 +1,8 @@
 {
-    "name": "apotheosis",
+    "name": "apo-bouncy",
     "version": "1.0.0",
-    "description": "Apotheosis Engine / Doomsday Device",
-    "main": "apotheosisServer.js",
+    "description": "Bouncy Redirect Engine",
+    "main": "bouncy.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -11,10 +11,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/altereagle/apotheosis.git"
+        "url": "git://github.com/brownmonk/apo-bouncy.git"
     },
     "keywords": [
-        "Apotheosis"
+        "Apotheosis", "Bouncy"
     ],
     "author": "Apotheosis Entertainment",
     "license": "Private",
