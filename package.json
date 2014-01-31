@@ -1,0 +1,24 @@
+{
+    "name": "apotheosis",
+    "version": "1.0.0",
+    "description": "Apotheosis Engine / Doomsday Device",
+    "main": "apotheosisServer.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "bouncy": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/altereagle/apotheosis.git"
+    },
+    "keywords": [
+        "Apotheosis"
+    ],
+    "author": "Apotheosis Entertainment",
+    "license": "Private",
+    "bugs": {
+        "url": "http://apotheosisentertainment.com"
+    }
+}
