@@ -9,6 +9,9 @@ var server = bouncy(function (req, res, bounce) {
   else if (req.headers.host.toLowerCase().indexOf('junctiongis.com') != -1 ) {
     bounce(6008);
   }
+  else if (req.headers.host.toLowerCase().indexOf('108.161.128.208') != -1){
+    bounce(6008);
+  }
   else if (req.headers.host.toLowerCase().indexOf('bandstock.org') != -1 ) {
     bounce(6009);
   }
